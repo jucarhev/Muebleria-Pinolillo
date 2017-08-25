@@ -1,0 +1,69 @@
+body{
+	background-color: #fff;
+}
+.header{
+	background: #30200e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #30200e 0%, #190a01 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#30200e), color-stop(100%,#190a01)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #30200e 0%,#190a01 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #30200e 0%,#190a01 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #30200e 0%,#190a01 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #30200e 0%,#190a01 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30200e', endColorstr='#190a01',GradientType=0 ); /* IE6-9 */
+}
+.header{
+	height: 100px;
+	overflow: hidden;
+}
+.logo{
+	margin: 10px 0px;
+	width: 100%;
+}
+.navbar-header{
+	width: 40%;
+}
+.icon-social{
+	margin: 10px 5px;
+}
+.pad{
+	margin: 10px 0px;
+}
+.oculto{
+	display: none;
+}
+.oculto a{
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18px;
+}
+.oculto a:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+@media screen and (max-width: 991px){
+	.oculto{
+		display: block;
+	}
+	.form-inline{
+		display: none;
+	}
+}
+.col-md-9{
+ 	padding-top: 0;
+}
+.line{
+ 	margin: 15px;
+}
+footer{
+ 	background:  #eee;
+}
+.img{
+ 	width: 100%;
+}
+section{
+	margin: 10px 0px 20px 0px;
+}
+.promocion{
+	padding:20px;
+}
